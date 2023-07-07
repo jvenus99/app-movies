@@ -1,0 +1,54 @@
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+
+  .movie-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+
+    .div-title-plot{
+      .text-atom {
+        margin-bottom: 20px;
+      }
+    }
+
+    .div-info {
+      width: 100%;
+      display: flex;
+      margin-bottom: 10px;
+      > *:first-child {
+        margin-right: 10px;
+      }
+      @media screen and (max-width: 920px) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .button-atom{
+      margin-top: 20px;
+      width: 25%;
+      @media screen and (max-width: 920px) {
+        width: 100%;
+      }
+    }
+  }
+
+  img {
+    width: 30%;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+.movie-card-empty{
+  align-self: center;
+}

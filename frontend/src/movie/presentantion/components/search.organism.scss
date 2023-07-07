@@ -1,0 +1,23 @@
+.search-organism {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  .input-atom{
+    width: 40%;
+    @media screen and (max-width: 920px) {
+      width: 100%;
+    }
+  }
+  .button-atom{
+    width: 10%;
+    @media screen and (max-width: 920px) {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
